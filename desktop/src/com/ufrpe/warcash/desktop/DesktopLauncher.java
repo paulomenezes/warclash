@@ -7,6 +7,9 @@ import com.ufrpe.warcash.WarClash;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+        config.width = WarClash.WIDTH;
+        config.height = WarClash.HEIGHT;
+
 		new LwjglApplication(new WarClash(), config);
 	}
 }

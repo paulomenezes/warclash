@@ -6,5 +6,8 @@ package com.ufrpe.warcash.map;
 
 public enum TileType {
     WATER,
-    GRASS
+    GRASS,
+    DESERT,
+    FLOREST,
+    ROCK
 }

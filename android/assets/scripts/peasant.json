@@ -1,0 +1,217 @@
+{
+  "entityID": "PEASANT",
+  "state": "IDLE",
+  "direction": "DOWN",
+  "animationConfig": {
+    "frameDuration": 0.25,
+    "animations": [
+      {
+        "texturePath": "Peasant.png",
+        "animationType": "WALKING",
+        "directions": [
+          {
+            "name": "up",
+            "animationType": "WALK_UP",
+            "frames": [
+              {
+                "name": "up1",
+                "x": 16,
+                "y": 8,
+                "width": 26,
+                "height": 23
+              },
+              {
+                "name": "up2",
+                "x": 18,
+                "y": 46,
+                "width": 24,
+                "height": 28
+              },
+              {
+                "name": "up3",
+                "x": 17,
+                "y": 86,
+                "width": 25,
+                "height": 26
+              },
+              {
+                "name": "up4",
+                "x": 19,
+                "y": 122,
+                "width": 23,
+                "height": 30
+              },
+              {
+                "name": "up5",
+                "x": 18,
+                "y": 159,
+                "width": 24,
+                "height": 27
+              }
+            ]
+          }, {
+            "name": "up-right",
+            "animationType": "WALK_UP_RIGHT",
+            "frames": [
+              {
+                "name": "ur1",
+                "x": 56,
+                "y": 6,
+                "width": 22,
+                "height": 26
+              },
+              {
+                "name": "ur2",
+                "x": 55,
+                "y": 44,
+                "width": 26,
+                "height": 30
+              },
+              {
+                "name": "ur3",
+                "x": 56,
+                "y": 84,
+                "width": 24,
+                "height": 29
+              },
+              {
+                "name": "ur4",
+                "x": 56,
+                "y": 119,
+                "width": 23,
+                "height": 29
+              },
+              {
+                "name": "ur5",
+                "x": 57,
+                "y": 156,
+                "width": 21,
+                "height": 28
+              }
+            ]
+          }, {
+            "name": "right",
+            "animationType": "WALK_RIGHT",
+            "frames": [
+              {
+                "name": "ri1",
+                "x": 97,
+                "y": 4,
+                "width": 14,
+                "height": 31
+              },
+              {
+                "name": "ri2",
+                "x": 91,
+                "y": 42,
+                "width": 24,
+                "height": 30
+              },
+              {
+                "name": "ri3",
+                "x": 96,
+                "y": 82,
+                "width": 16,
+                "height": 31
+              },
+              {
+                "name": "ri4",
+                "x": 91,
+                "y": 118,
+                "width": 23,
+                "height": 30
+              },
+              {
+                "name": "ri5",
+                "x": 95,
+                "y": 155,
+                "width": 20,
+                "height": 30
+              }
+            ]
+          }, {
+            "name": "down-right",
+            "animationType": "WALK_DOWN_RIGHT",
+            "frames": [
+              {
+                "name": "dl1",
+                "x": 127,
+                "y": 3,
+                "width": 22,
+                "height": 31
+              },
+              {
+                "name": "dl2",
+                "x": 128,
+                "y": 40,
+                "width": 20,
+                "height": 27
+              },
+              {
+                "name": "dl3",
+                "x": 130,
+                "y": 80,
+                "width": 19,
+                "height": 28
+              },
+              {
+                "name": "dl4",
+                "x": 126,
+                "y": 119,
+                "width": 26,
+                "height": 29
+              },
+              {
+                "name": "dl5",
+                "x": 126,
+                "y": 156,
+                "width": 26,
+                "height": 28
+              }
+            ]
+          }, {
+            "name": "down",
+            "animationType": "WALK_DOWN",
+            "frames": [
+              {
+                "name": "dw1",
+                "x": 166,
+                "y": 7,
+                "width": 25,
+                "height": 26
+              },
+              {
+                "name": "dw2",
+                "x": 168,
+                "y": 45,
+                "width": 24,
+                "height": 26
+              },
+              {
+                "name": "dw3",
+                "x": 167,
+                "y": 85,
+                "width": 25,
+                "height": 27
+              },
+              {
+                "name": "dw4",
+                "x": 168,
+                "y": 121,
+                "width": 23,
+                "height": 26
+              },
+              {
+                "name": "dw5",
+                "x": 167,
+                "y": 158,
+                "width": 24,
+                "height": 27
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
